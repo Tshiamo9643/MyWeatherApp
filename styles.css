@@ -1,0 +1,33 @@
+html, body{
+    background: linear-gradient(to right, #05d3e4, #0e5191);
+    
+} 
+/*flex  */
+.max-width{
+    max-width: 400px;
+}
+.flex-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 100%;
+}
+.header-container{
+    background-color: #037591;
+    width: 100%;
+    height: 100%;
+}
+.days-container{
+    background-color: #045f7b;
+    
+}
+.weather-container{
+    background-color: #037591;
+}
+.weatherPred-container{
+    background-color: #037591;
+}
